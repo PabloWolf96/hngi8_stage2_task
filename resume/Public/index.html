@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Owen Ikhena</title>
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <img src="img/me.jpg" alt="avatar" />
+        <h3 class="name">Owen Ikhena</h3>
+        <p class="post">Backend Developer</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="menu" class="fas fa-bars"></div>
+
+    <section class="home" id="home">
+      <h3>Hi There!</h3>
+      <h1>I'm <span>Ikhena Owen</span></h1>
+      <p>
+        I am a backend developer currently interning at
+        <a href="https://internship.zuri.team/">HNGi8</a>
+      </p>
+      <a href="#about">
+        <button class="btn">About Me <span class="fas fa-user"></span></button>
+      </a>
+    </section>
+    <section class="about" id="about">
+      <h1 class="heading"><span>About </span> Me</h1>
+      <div class="flex">
+        <p>
+          Complex problem-solver with analytical and driven mindset. Dedicated
+          to achieving demanding development objectives according to tight
+          schedules while producing impeccable code. Quick-learner with a
+          positive attitude ready to make an immediate impact and prepared to
+          contribute to organizational success while developing new skills and
+          gaining real-world experience. Highly organized and responsible.
+          Positively impacts operations with top-notch communication and
+          critical thinking skills.
+        </p>
+        <a href="/cv" class="btn">
+          Download CV <span class="fas fa-download"></span>
+        </a>
+      </div>
+    </section>
+    <section class="blog" id="blog">
+      <h1 class="heading"><span>My </span> Blog</h1>
+      <div class="blog-body">
+        <img src="img/hng_logo.jpg" class="blog-img" alt="" />
+        <div class="blog-content">
+          <p>
+            My name is Owen Ikhena and I will be taking part in HNGi8 this year.
+            For those who haven't heard about HNG internship, it is a remote
+            internship where one can learn various skills such as web
+            development, digital marketing, mobile development, etc. by working
+            on real-world projects. The internship has 10 stages.
+          </p>
+          <a
+            href="https://dev.to/pablowolf96/hngi8-my-journey-begins-3862"
+            class="btn"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Me</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">CONTACT INFO</h3>
+
+          <div class="info">
+            <h3>
+              <span class="fas fa-envelope"></span> Ikhena.owen47@gmail.com
+            </h3>
+            <h3><span class="fas fa-phone"></span> 09082232653</h3>
+
+            <h3>
+              <a href="https://github.com/PabloWolf96"
+                ><span class="fab fa-github"></span
+              ></a>
+            </h3>
+            <h3>
+              <a href="https://linkedin.com/in/owen-ikhena-bb8b06209"
+                ><span class="fab fa-linkedin-in"></span>
+              </a>
+            </h3>
+          </div>
+        </div>
+        <div class="form">
+          <div class="" id="msg"></div>
+          <input
+            type="text"
+            placeholder="name"
+            name="name"
+            id="name"
+            class="box"
+            required
+          />
+          <input
+            type="email"
+            placeholder="email"
+            name="email"
+            id="email"
+            class="box"
+            required
+          />
+          <input
+            type="text"
+            placeholder="title"
+            name="title"
+            id="title"
+            class="box"
+            required
+          />
+          <textarea
+            name=""
+            id="message"
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+            required
+            name="message"
+          ></textarea>
+          <button type="submit" id="submit" class="btn">
+            Send <span class="fas fa-paper-plane" id="send-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <a href="#home" class="top">
+      <span class="fas fa-chevron-up fa-4x"></span>
+    </a>
+    <script src="js/script.js"></script>
+  </body>
+</html>
