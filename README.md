@@ -1,2 +1,3 @@
 hosted url : https://pablo-resume.herokuapp.com
-![My website](resume/Public/resume.png?raw=true "Title")
+
+![My website](https://imgur.com/a/3JTC2mv "website")
